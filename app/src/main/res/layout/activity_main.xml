@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:padding="10sp">
+
+    <TextView
+        android:id="@+id/textViewShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darktext"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSpeak"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="false"
+        android:background="@color/white"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/micnew" />
+
+    <Button
+        android:id="@+id/buttonHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="@string/buttonhelp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewtapto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonSpeak"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tap_on_mic"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darktext"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/textView7Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonHelp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/darktext" />
+</RelativeLayout>

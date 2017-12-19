@@ -1,0 +1,39 @@
+<resources>
+
+    //Splash Activity
+    <string name="welcome"> Aaya</string>
+    <string name="voiceAss">Your Personnel Voice Assistant</string>
+
+    //Needs Activity
+    <string name="app_name">Aaya</string>
+    <string name="greet">Please fill in the details so i can Assist You</string>
+    <string name="visually">Are You Visually Impaired ?</string>
+    <string name="button">Submit</string>
+    <string name="name">What Should i call you ?</string>
+    <string name="Contact">Contact Number</string>
+    <string name="Add">Address</string>
+    <string name="dob">Birthday</string>
+    <string name="emer">Emergency Contact</string>
+
+
+    //Main Activity
+    <string name="buttonhelp">Help</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap to Speak</string>
+
+    //Compose Mail Activity
+    <string name="_to">To</string>
+    <string name="_sub">Subject</string>
+    <string name="_body">Body</string>
+    <string name="_send">Send</string>
+
+    //Notes Module
+    <string name="action_settings_notes">Settings</string>
+    <string name="title_activity_main2">NOtes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

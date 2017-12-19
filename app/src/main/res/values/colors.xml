@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#221F1F</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#DC4C46</color>
+    <color name="splash">#221F1F</color>
+    <color name="white">#ffff</color>
+    <color name="darktext">#3e4444</color>
+    <color name="relCo">#a76a1410</color>
+</resources>

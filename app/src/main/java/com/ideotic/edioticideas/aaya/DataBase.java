@@ -1,4 +1,4 @@
-package com.ideotic.edioticideas.aaya;
+//ackage com.ideotic.edioticideas.aaya;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -11,7 +11,7 @@ import java.sql.SQLException;
 /**
  * Created by Shubham on 12-03-2016.
  */
-class SingleRowReminder {
+//class SingleRowReminder {
     String id;
     String tittle;
     String des;
@@ -55,7 +55,7 @@ public class DataBase {
     class OurHelper extends SQLiteOpenHelper {
         public OurHelper(Context context) {
             super(context, DATABASE_NAME, null, VERSION);
-        }
+       
 
         @Override
         public void onCreate(SQLiteDatabase db) {
@@ -91,7 +91,7 @@ public class DataBase {
     }
 
     public SingleRowReminder getROW(String Id){
-        String[] columns = new String[]{KEY_ID,KEY_DES,KEY_TITLE};
+        String[]  = new String[]{KEY_ID,KEY_DES,KEY_TITLE};
         Cursor c = ourDataBase.query(TABLENAME, columns,KEY_ID + " = "+Id, null, null, null, null);
         String ID= null,title = null, desc = null;
         while (c.moveToNext()) {
@@ -102,12 +102,12 @@ public class DataBase {
 
             }
         }
-        SingleRowReminder sr = new SingleRowReminder(ID,title,desc);
-        //SingleRowReminder sr = null;
-        return sr;
-    }
 
-}
+        //SingleRowReminder sr = null;
+
+
+
+
 
 
 
